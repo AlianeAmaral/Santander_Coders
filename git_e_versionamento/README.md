@@ -1,3 +1,3 @@
 # Digital Course: Git
 
-# Efetuando um comit
+# Efetuando um commit
