@@ -8,9 +8,9 @@ public class teste_algoritmos {
 	Scanner sc = new Scanner(System.in);
 	
 	System.out.println("Digite um número: ");
-	double a = sc.nextInt();
+	double a = sc.nextDouble();
 	System.out.println("Digite outro número: ");
-	double b = sc.nextInt();
+	double b = sc.nextDouble();
 	double resultado = 0;
 	
 	if (a > b) {
