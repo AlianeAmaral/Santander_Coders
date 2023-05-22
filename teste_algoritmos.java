@@ -8,19 +8,22 @@ public class teste_algoritmos {
 	Scanner sc = new Scanner(System.in);
 	
 	System.out.println("Digite um número: ");
-	double a = sc.nextDouble();
-	System.out.println("Digite outro número: ");
-	double b = sc.nextDouble();
-	double resultado = 0;
+	double x = sc.nextDouble();
 	
-	if (a > b) {
-		resultado = (a - b) / a;
-	}
-	else {
-		resultado = (b - a) / b;
+	double a = 0;
+	double t = 0;
+	int i = 0;
+	
+	while (i < x) {
+		System.out.println("Digite outro número: ");
+		double e = sc.nextDouble();
+		t = (t + e);
+		i = i +1;
 	}
 	
-	System.out.println("Resultado: " + resultado);
+	a = (t / x);
+	
+	System.out.println("Resultado: " + i + a);
 	
 	sc.close();
 	
